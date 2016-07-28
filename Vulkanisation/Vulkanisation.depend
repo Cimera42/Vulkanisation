@@ -1,0 +1,1336 @@
+# depslib dependency file v1.0
+1469519892 source:c:\users\tim\documents\coding\c++\projects\vulkanisation\main.cpp
+	"vulkanDefinitions.h"
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<iostream>
+	<vector>
+	<limits>
+	<fstream>
+	<sstream>
+	<cstring>
+	"mesh.h"
+	"assorted.h"
+	"texture.h"
+
+1463405433 source:c:\users\tim\documents\coding\c++\projects\vulkanisation\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	<assert.h>
+	<vulkan/vulkan.h>
+	<GLFW/glfw3.h>
+
+1463402120 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\vulkan\vulkan.h
+	"vk_platform.h"
+	<X11/Xlib.h>
+	<xcb/xcb.h>
+	<wayland-client.h>
+	<mir_toolkit/client_types.h>
+	<android/native_window.h>
+	<windows.h>
+
+1463402247 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\vulkan\vk_platform.h
+	<stddef.h>
+	<stdint.h>
+	<android/native_window.h>
+	<mir_toolkit/client_types.h>
+	<wayland-client.h>
+	<windows.h>
+	<X11/Xlib.h>
+	<xcb/xcb.h>
+
+1462973007 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1438464936 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1458392818 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+	<__config>
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1438465103 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1457813285 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\precision.hpp
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\_swizzle.hpp
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\_swizzle_func.hpp
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_vec2.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_vec3.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1458392818 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_vec4.hpp
+	"setup.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1458392818 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_vec4.inl
+	"type_vec4_sse2.inl"
+	"type_vec4_avx.inl"
+	"type_vec4_avx2.inl"
+
+1441038892 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_vec4_sse2.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_vec4_avx.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_vec4_avx2.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1457869625 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_mat2x2.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1457869625 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_mat2x3.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1458392818 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1458392818 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_mat2x4.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1457869432 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_mat3x2.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1457869432 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_mat3x3.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1457869431 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_mat3x4.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_mat4x2.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1457869431 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_mat4x3.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1458392818 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1457869443 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_mat4x4.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1441051837 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_vec1.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\func_vector_relational.inl
+	<limits>
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\common.hpp
+	"detail/func_common.hpp"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1451841634 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1437262117 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1451842014 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\type_half.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1457218279 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1426535103 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+
+1451841097 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\gtx\transform.hpp
+	"../glm.hpp"
+	"../gtc/matrix_transform.hpp"
+	"transform.inl"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1441051454 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1441052694 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\gtc\constants.inl
+	<limits>
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\glm\gtx\transform.inl
+
+1469371162 source:c:\users\tim\documents\coding\c++\projects\vulkanisation\mesh.cpp
+	"mesh.h"
+	<iostream>
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+	"vulkanDefinitions.h"
+	"assorted.h"
+
+1468465412 c:\users\tim\documents\coding\c++\projects\vulkanisation\mesh.h
+	<vulkan/vulkan.h>
+	<glm/glm.hpp>
+	<vector>
+	<string>
+	"assorted.h"
+	"texture.h"
+
+1439530350 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\importer.hpp
+	"types.h"
+	"config.h"
+
+1439530358 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\types.h
+	<sys/types.h>
+	<memory.h>
+	<math.h>
+	<stddef.h>
+	<string.h>
+	<limits.h>
+	"defs.h"
+	"vector3.h"
+	"vector2.h"
+	"color4.h"
+	"matrix3x3.h"
+	"matrix4x4.h"
+	"quaternion.h"
+	<cstring>
+	<new>
+	<string>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+	"vector2.inl"
+	"vector3.inl"
+	"color4.inl"
+	"quaternion.inl"
+	"matrix3x3.inl"
+	"matrix4x4.inl"
+
+1439530354 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\defs.h
+
+1439530360 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\vector3.h
+	<cmath>
+	<math.h>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1439530320 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\compiler\pushpack1.h
+
+1439530318 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\compiler\poppack1.h
+
+1439530358 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\vector2.h
+	<cmath>
+	<math.h>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1439530354 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\color4.h
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1439530356 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\matrix3x3.h
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1439530356 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\matrix4x4.h
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1439530358 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\quaternion.h
+
+1439530358 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\vector2.inl
+	"vector2.h"
+	<cmath>
+
+1439530360 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\vector3.inl
+	"vector3.h"
+	<cmath>
+
+1439530354 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\color4.inl
+	"color4.h"
+
+1439530358 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\quaternion.inl
+	"quaternion.h"
+	<cmath>
+
+1439530356 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\matrix3x3.inl
+	"matrix3x3.h"
+	"matrix4x4.h"
+	<algorithm>
+	<cmath>
+	<limits>
+
+1439530356 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\matrix4x4.inl
+	"matrix4x4.h"
+	"matrix3x3.h"
+	"quaternion.h"
+	<algorithm>
+	<limits>
+	<cmath>
+	<math.h>
+
+1439530354 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\config.h
+
+1439530358 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\scene.h
+	"types.h"
+	"texture.h"
+	"mesh.h"
+	"light.h"
+	"camera.h"
+	"material.h"
+	"anim.h"
+	"metadata.h"
+
+1439530358 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\texture.h
+	"types.h"
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1439530356 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\mesh.h
+	"types.h"
+
+1439530354 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\light.h
+	"types.h"
+
+1439530352 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\camera.h
+	"types.h"
+
+1439530356 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\material.h
+	"types.h"
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+	"material.inl"
+
+1439530356 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\material.inl
+
+1439530352 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\anim.h
+	"types.h"
+	"quaternion.h"
+
+1439530356 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\metadata.h
+	<assert.h>
+	"Compiler/pstdint.h"
+	<stdint.h>
+	<string>
+
+1439530318 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\compiler\pstdint.h
+	<stddef.h>
+	<limits.h>
+	<signal.h>
+	<stdint.h>
+	<wchar.h>
+
+1439530358 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\assimp\postprocess.h
+	"types.h"
+
+1469415104 c:\users\tim\documents\coding\c++\projects\vulkanisation\vulkandefinitions.h
+	<vulkan/vulkan.h>
+	<GLFW/glfw3.h>
+
+1469415107 source:c:\users\tim\documents\coding\c++\projects\vulkanisation\vulkandefinitions.cpp
+	"vulkanDefinitions.h"
+
+1469417658 source:c:\users\tim\documents\coding\c++\projects\vulkanisation\assorted.cpp
+	"assorted.h"
+	<iostream>
+	<cstring>
+	"vulkanDefinitions.h"
+
+1469414147 c:\users\tim\documents\coding\c++\projects\vulkanisation\assorted.h
+	<vulkan/vulkan.h>
+
+1466000110 c:\users\tim\documents\coding\c++\projects\vulkanisation\libraries\include\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1469414156 c:\users\tim\documents\coding\c++\projects\vulkanisation\texture.h
+	<vulkan/vulkan.h>
+	<vector>
+	<string>
+
+1469417606 source:c:\users\tim\documents\coding\c++\projects\vulkanisation\texture.cpp
+	"texture.h"
+	<stb_image.h>
+	<limits>
+	<algorithm>
+	<iostream>
+	"vulkanDefinitions.h"
+	"assorted.h"
+
+1469417658 source:c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\vulkanisation\assorted.cpp
+	"assorted.h"
+	<iostream>
+	<cstring>
+	"vulkanDefinitions.h"
+
+1469414147 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\vulkanisation\assorted.h
+	<vulkan/vulkan.h>
+
+1463402120 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\vulkan\vulkan.h
+	"vk_platform.h"
+	<X11/Xlib.h>
+	<xcb/xcb.h>
+	<wayland-client.h>
+	<mir_toolkit/client_types.h>
+	<android/native_window.h>
+	<windows.h>
+
+1463402247 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\vulkan\vk_platform.h
+	<stddef.h>
+	<stdint.h>
+	<android/native_window.h>
+	<mir_toolkit/client_types.h>
+	<wayland-client.h>
+	<windows.h>
+	<X11/Xlib.h>
+	<xcb/xcb.h>
+
+1469415104 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\vulkanisation\vulkandefinitions.h
+	<vulkan/vulkan.h>
+	<GLFW/glfw3.h>
+
+1462973007 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1469371162 source:c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\vulkanisation\mesh.cpp
+	"mesh.h"
+	<iostream>
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+	"vulkanDefinitions.h"
+	"assorted.h"
+
+1468465412 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\vulkanisation\mesh.h
+	<vulkan/vulkan.h>
+	<glm/glm.hpp>
+	<vector>
+	<string>
+	"assorted.h"
+	"texture.h"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1438464936 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1458392818 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+	<__config>
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1438465103 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1457813285 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\precision.hpp
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\_swizzle.hpp
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\_swizzle_func.hpp
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_vec2.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_vec3.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1458392818 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_vec4.hpp
+	"setup.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1458392818 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_vec4.inl
+	"type_vec4_sse2.inl"
+	"type_vec4_avx.inl"
+	"type_vec4_avx2.inl"
+
+1441038892 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_vec4_sse2.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_vec4_avx.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_vec4_avx2.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1457869625 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_mat2x2.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1457869625 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_mat2x3.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1458392818 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1458392818 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_mat2x4.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1457869432 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_mat3x2.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1457869432 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_mat3x3.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1457869431 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_mat3x4.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_mat4x2.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1457869431 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_mat4x3.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1458392818 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1457869443 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_mat4x4.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1441051837 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_vec1.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\func_vector_relational.inl
+	<limits>
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\common.hpp
+	"detail/func_common.hpp"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1451841634 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1437262117 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1451842014 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\type_half.inl
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1458392781 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1457218279 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1424014283 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1426535103 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+
+1469414156 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\vulkanisation\texture.h
+	<vulkan/vulkan.h>
+	<vector>
+	<string>
+
+1439530350 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\importer.hpp
+	"types.h"
+	"config.h"
+
+1439530358 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\types.h
+	<sys/types.h>
+	<memory.h>
+	<math.h>
+	<stddef.h>
+	<string.h>
+	<limits.h>
+	"defs.h"
+	"vector3.h"
+	"vector2.h"
+	"color4.h"
+	"matrix3x3.h"
+	"matrix4x4.h"
+	"quaternion.h"
+	<cstring>
+	<new>
+	<string>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+	"vector2.inl"
+	"vector3.inl"
+	"color4.inl"
+	"quaternion.inl"
+	"matrix3x3.inl"
+	"matrix4x4.inl"
+
+1439530354 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\defs.h
+
+1439530360 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\vector3.h
+	<cmath>
+	<math.h>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1439530320 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\compiler\pushpack1.h
+
+1439530318 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\compiler\poppack1.h
+
+1439530358 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\vector2.h
+	<cmath>
+	<math.h>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1439530354 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\color4.h
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1439530356 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\matrix3x3.h
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1439530356 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\matrix4x4.h
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1439530358 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\quaternion.h
+
+1439530358 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\vector2.inl
+	"vector2.h"
+	<cmath>
+
+1439530360 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\vector3.inl
+	"vector3.h"
+	<cmath>
+
+1439530354 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\color4.inl
+	"color4.h"
+
+1439530358 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\quaternion.inl
+	"quaternion.h"
+	<cmath>
+
+1439530356 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\matrix3x3.inl
+	"matrix3x3.h"
+	"matrix4x4.h"
+	<algorithm>
+	<cmath>
+	<limits>
+
+1439530356 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\matrix4x4.inl
+	"matrix4x4.h"
+	"matrix3x3.h"
+	"quaternion.h"
+	<algorithm>
+	<limits>
+	<cmath>
+	<math.h>
+
+1439530354 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\config.h
+
+1439530358 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\scene.h
+	"types.h"
+	"texture.h"
+	"mesh.h"
+	"light.h"
+	"camera.h"
+	"material.h"
+	"anim.h"
+	"metadata.h"
+
+1439530358 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\texture.h
+	"types.h"
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1439530356 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\mesh.h
+	"types.h"
+
+1439530354 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\light.h
+	"types.h"
+
+1439530352 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\camera.h
+	"types.h"
+
+1439530356 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\material.h
+	"types.h"
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+	"material.inl"
+
+1439530356 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\material.inl
+
+1439530352 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\anim.h
+	"types.h"
+	"quaternion.h"
+
+1439530356 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\metadata.h
+	<assert.h>
+	"Compiler/pstdint.h"
+	<stdint.h>
+	<string>
+
+1439530318 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\compiler\pstdint.h
+	<stddef.h>
+	<limits.h>
+	<signal.h>
+	<stdint.h>
+	<wchar.h>
+
+1439530358 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\assimp\postprocess.h
+	"types.h"
+
+1469417606 source:c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\vulkanisation\texture.cpp
+	"texture.h"
+	<stb_image.h>
+	<limits>
+	<algorithm>
+	<iostream>
+	"vulkanDefinitions.h"
+	"assorted.h"
+
+1466000110 c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\libraries\include\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1469415107 source:c:\users\tim\documents\coding\c++\projects\vulkanisation\trunk\vulkanisation\vulkandefinitions.cpp
+	"vulkanDefinitions.h"
+
